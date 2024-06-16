@@ -9,7 +9,7 @@ defaults:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-title: Christian Ezeani
+title: Shan Jiangfeng
 subtitle: Full-Stack Developer
 
 # left_side:
@@ -19,7 +19,7 @@ subtitle: Full-Stack Developer
 #   text_color: "#F00"
 
 footer:
-  copyright_text: "&copy; Christian Ezeani"
+  copyright_text: "&copy;  Shan Jiangfeng"
 
 # Side Menu Links
 menu:
