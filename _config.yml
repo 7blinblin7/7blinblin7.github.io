@@ -1,55 +1,65 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+paginate: 10
+paginate_path: "/blog/page:num/"
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+title: Christian Ezeani
+subtitle: Full-Stack Developer
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# left_side:
+#   background_image: "./assets/images/left-background.jpg"
+#   background_color: "#F00"
+#   close_button_color: "#F00"
+#   text_color: "#F00"
+
+footer:
+  copyright_text: "&copy; Christian Ezeani"
+
+# Side Menu Links
+menu:
+  - text: Portfolio
+    link: /
+    icon: ""
+
+  - text: Skills & Offers
+    link: /skills-and-offers
+    icon: ""
+
+  - text: Contact Me
+    link: /contact
+    icon: ""
+
+  - text: My Resume
+    link: /resume
+    icon: ""
+
+  - text: Blog Posts
+    link: /blog
+    icon: ""
+
+# Socialmedia Icons
+social_icons:
+  - name: linkedin
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
+
+  - name: github
+    link: https://github.com/christianezeani
+    icon: fab fa-github-square
+
+  - name: facebook
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
+  - name: twitter
+    link: https://www.twitter.com/christianezeani
+    icon: fab fa-twitter
+
+
+    
