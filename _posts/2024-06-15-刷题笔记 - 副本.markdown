@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome to MyChanel"
+date:   2024-06-15 22:41:08 +0800
+categories: jekyll update
+---
+开始刷题生活，在这个个人博客记录自己的一些心得。

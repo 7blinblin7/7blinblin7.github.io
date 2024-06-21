@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to NyChanel"
+title:  "Welcome to MyyChanel"
 date:   2024-06-15 22:41:08 +0800
 categories: jekyll update
 ---
