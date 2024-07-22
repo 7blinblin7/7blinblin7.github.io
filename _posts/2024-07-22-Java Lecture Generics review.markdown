@@ -21,7 +21,7 @@ categories: jekyll update
 3. 泛型类型调用 ```Box<Number> box = new<>Box(); box.add(new Integer(10));```is ok 因为integer是number的子类  
 ```public void boxTest（Box<Number> n） { /* ... */ }```不可以接受Box<Integer> 和 Box<Double> 因为Box<Integer> 和 Box<Double> 不是 Box 的子类型<Number>。
 #3. 通配符  
-1. 用于泛型类型的实例化和方法参数。
+1. 用于泛型类型的实例化和方法参数。可用于放宽对变量的限制。
 2. 有界通配符 ？ extends B 上界? super B下界
 #4. JCF  
 1. C++ 标准模板库 （STL） 的 Java 对应物
