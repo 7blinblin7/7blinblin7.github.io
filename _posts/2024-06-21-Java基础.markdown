@@ -1,7 +1,40 @@
 ---
 layout: post
-title:  "Welcome to MyyChanel"
-date:   2024-06-15 22:41:08 +0800
+title:  "Java 基础"
+date:   2024-06-21 22:41:08 +0800
 categories: jekyll update
 ---
-开始刷题生活，在这个个人博客记录自己的一些心得。
+#1.基础语法
+##java运行环境
+###JVM
+java是独立于平台的语言。如今，计算机已联网以协同工作。Java 被设计为在任何平台上运行。只需编写一次程序，即可将源程序编译为一种特殊类型的目标代码，称为字节码。然后，字节码可以在任何具有 Java 虚拟机 （JVM） 的计算机上运行，JVM 是 Java 字节码的软件解释器
+Java 文件经过编译后变成 .class 字节码文件字节码文件通过类加载器被搬运到 JVM 虚拟机中虚拟机主要的 5 大块：方法区，堆都为线程共享区域，有线程安全问题，栈和本地方法栈和计数器都是独享区域，不存在线程安全问题，而 JVM 的调优主要就是围绕堆，栈两大块进行
+##为什么选择java
+###jdk
+Since JDK 9, Oracle releases a new version of JDK every 6
+months (on Mar and Sep). Before that, it was normally
+between 2 to 5 years for each new release.
+Each release has a lifespan about 6 months until the next
+release and will not receive further updates except Long-
+Term-Support (LTS) version.
+ Current LTS release is JDK 8, 11 and 17
+JDK vs OpenJDK
+From Java 11 forward, they are fundamentally the same in terms
+of features. All features available in JDK build is also available in
+OpenJDK build.
+JDK i not free for commercial use. Oracle provides LTS.
+OpenJDK is free for commercial use, but receives no LTS.
+Company needs to upgrade to the next release every 6
+months.
+###优点
+1. Simple and Object-Oriented (simplify from C++)
+2. Distributed (support network programming)
+3. Interpreted, portable and architecture-neutral
+4. Robust and secure (exception handling, digital signature)
+5. High-performance (hotspot technology)Although it is suffered from the performance degradation of bytecode
+interpretation, some analysis show that Java’s performance is quite close to native code nowadays
+6. Multi-threaded (simultaneous tasks)
+7. Dynamic (no installation, no recompilation, load-on-the-fly) 
+
+
+
